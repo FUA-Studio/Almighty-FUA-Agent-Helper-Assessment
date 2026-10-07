@@ -1,0 +1,8 @@
+{
+  "name": "afaha09-editor",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": { "start": "electron ." },
+  "devDependencies": { "electron": "28.2.0" },
+  "dependencies": { "fs-extra": "^11.2.0" }
+}
