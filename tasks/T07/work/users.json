@@ -1,0 +1,6 @@
+[
+  {"name":"alice","enabled":true,"age":22},
+  {"name":"bob","enabled":true,"age":28},
+  {"name":"charlie","enabled":false,"age":31},
+  {"name":"dave","enabled":true,"age":35}
+]
