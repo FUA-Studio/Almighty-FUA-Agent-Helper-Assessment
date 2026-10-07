@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'><title>AFAHA Editor</title>
+<style>body{margin:0;font-family:sans-serif;display:flex;flex-direction:column;height:100vh}
+#bar{padding:6px;background:#eee;display:flex;gap:6px}button{padding:4px 10px}
+#ed{flex:1;border:none;outline:none;padding:16px;font-size:14px;overflow:auto}</style></head>
+<body>
+<div id=bar>
+<button onclick='api("newDoc")'>新建</button>
+<button onclick='api("openDoc")'>打开</button>
+<button onclick='api("saveDoc")'>保存</button>
+<button onclick='api("saveAsDoc")'>另存为</button>
+<button onclick='api("exportPdf")'>导出PDF</button>
+<button onclick='api("print")'>打印</button>
+</div>
+<div id=ed contenteditable=true>在此输入…</div>
+<script src='app.js'></script>
+</body></html>
