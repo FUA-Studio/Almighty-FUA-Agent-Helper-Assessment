@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+results.json
+tasks/T04/work/output_goods.json
+node_modules/
+target/
